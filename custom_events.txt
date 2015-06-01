@@ -1,0 +1,36 @@
+"CustomEvents"
+{
+    "control_override_config"
+    {
+        "pid"           "short"
+        "clicks"        "bool"
+        "keys"          "bool"
+        "movement"      "bool"
+        "selection"     "bool"
+    }
+
+    "control_override_keyfilter"
+    {
+        "pid"           "short"
+        "filter"        "string"
+    }
+
+    "control_override_selectfilter"
+    {
+        "pid"           "short"
+        "filter"        "string"
+    }
+
+    "control_override_mousefilter"
+    {
+        "pid"           "short"
+        "filter"        "string"
+    }
+
+    "control_override_cvar"
+    {
+        "pid"           "short"
+        "cvar"          "string"
+        "value"         "string"
+    }
+}
